@@ -1,0 +1,12 @@
+.list {
+     padding: 20px;
+     border: 2px solid #444;
+     margin-bottom: 10px;
+     cursor: pointer;
+     transition: ease .3s;
+     font-size: 20px;
+}
+.list:hover {
+     padding: 23px;
+     background-color: #cfcfcf;
+}

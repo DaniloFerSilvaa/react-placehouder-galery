@@ -1,0 +1,15 @@
+.photoArea {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+.post {
+     padding: 10px;
+     border: 2px solid #444;
+     margin: 15px;
+     cursor: pointer;
+}
+.post:hover{
+     opacity: .8;
+     transform: scale(1.1) rotate(7deg);
+}

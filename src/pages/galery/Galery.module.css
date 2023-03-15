@@ -10,3 +10,7 @@
      padding: 23px;
      background-color: #cfcfcf;
 }
+.ul{
+     list-style: none;
+     padding: 0;
+}

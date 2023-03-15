@@ -28,18 +28,22 @@ export const Galery = () => {
      return (
      <div>
           {load &&
-               <div><h3>Carregando...</h3></div>
+               <div><h3>Carregando.....</h3></div>
           }
 
           {!load && galerys.length &&
-               galerys.map((item, index)=>(
-                    <div key={index} 
-                    className={styles.list} 
-                    onClick={() => handleClick(item.id)}
-                    >
-                         {item.title} <br />
-                    </div> 
-               ))
+               <ul className={styles.ul}>
+                    {
+                         galerys.map((item, index) => (
+                         <li key={index} 
+                         className={styles.list} 
+                         onClick={() => handleClick(item.id)}
+                         >
+                              {item.title} <br />
+                         </li> 
+                    ))
+                    }
+               </ul>
           }
      </div>
     )

@@ -14,3 +14,8 @@
      list-style: none;
      padding: 0;
 }
+.cards{
+     width: 100px;
+     height: 120px;
+     padding: 50px;
+}
